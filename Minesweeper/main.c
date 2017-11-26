@@ -132,6 +132,7 @@ int play(char **game, char **display) {
         
         printf("\nINVALID COORDINATES ENTERED!! PLEASE ENTER A VALID COMBINATION.\nRedirecting.......\n");
         sleep(3);
+        return 0;
     }
     
     //If the cell is already opened, do nothing else; return 0.
